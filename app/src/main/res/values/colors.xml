@@ -3,4 +3,9 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="rest_color">#ff7b25</color>
+    <color name="nature_color">#86af49</color>
+    <color name="attractions_color">#3e4444</color>
+    <color name="landmarks_color">#034f84</color>
+    <color name="detail_back">#3e4444</color>
 </resources>

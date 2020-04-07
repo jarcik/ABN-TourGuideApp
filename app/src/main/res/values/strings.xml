@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Tour Guid App</string>
+    <string name="zichovec_rest">Restaurant Zichovec</string>
+    <string name="zichovec_rest_desc">Calm environment, their own beer</string>
+    <string name="pila_rest">Penzion on Pila</string>
+    <string name="pila_rest_dest">Home environment</string>
+    <string name="dzban_park">Natural park Džbán</string>
+    <string name="dzban_park_desc">Unique park</string>
+    <string name="menhirs">Menhirs</string>
+    <string name="menhirs_desc">Unique stones</string>
+    <string name="brewery">Pivovar zichovec</string>
+    <string name="brewery_desc">Private brewery known for the experimental beers.</string>
+    <string name="pond">Pond Zichovec</string>
+    <string name="pond_desc">Recently renewed, ready to jump into</string>
+    <string name="castle">Castle Žerotín</string>
+    <string name="castle_desc">An old castle from the genus Žerotínov</string>
+    <string name="catedral">Unfinished catedral Panenský Týnec</string>
+    <string name="catedral_desc">The place with huge concentration of positive energy</string>
+    <string name="restaurants_category">Restaurants</string>
+    <string name="nature_category">Nature</string>
+    <string name="attractions_category">Attractions</string>
+    <string name="landmarks_category">Landmarks</string>
+    <string name="stone_lines">Stone line</string>
+    <string name="stone_desc">Stone line are a mystery for all of us</string>
 </resources>
