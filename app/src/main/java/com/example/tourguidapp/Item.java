@@ -13,23 +13,27 @@ public class Item implements Parcelable {
     private int descriptionId;
     //image resource id
     private int imageId;
-    //phone for the rest etx
-    private String phone;
-    //web page
-    private String web;
+    //phone for the rest etx id
+    private int phoneId;
+    //web page string id
+    private int webId;
 
     /** Constant value that represents no image was provided for this word */
     private static final int NO_IMAGE_PROVIDED = -1;
+    /** Constant value that represents no phone string was provided for this word */
+    private static final int NO_PHONE_PROVIDED = -1;
+    /** Constant value that represents no web page string was provided for this word */
+    private static final int NO_WEB_PROVIDED = -1;
 
     /**
      * constructor
      */
-    public Item (int header, int desc, int image, String ph, String wb) {
+    public Item (int header, int desc, int image, int ph, int wb) {
         headerId = header;
         descriptionId = desc;
         imageId = image;
-        phone = ph;
-        web = wb;
+        phoneId = ph;
+        webId = wb;
     }
 
     //parcel part
@@ -39,8 +43,8 @@ public class Item implements Parcelable {
         headerId = Integer.parseInt(data[0]);
         descriptionId = Integer.parseInt(data[1]);
         imageId = Integer.parseInt(data[2]);
-        phone = data[3];
-        web = data[4];
+        phoneId = Integer.parseInt(data[3]);
+        webId = Integer.parseInt(data[4]);
     }
 
     /**
@@ -54,14 +58,14 @@ public class Item implements Parcelable {
      * Returns whether or not there is an phone for this item.
      */
     public boolean hasPhone() {
-        return phone != null;
+        return phoneId != NO_PHONE_PROVIDED;
     }
 
     /**
      * Returns whether or not there is an web for this item.
      */
     public boolean hasWeb() {
-        return web != null;
+        return webId != NO_WEB_PROVIDED;
     }
 
     /**
@@ -77,11 +81,11 @@ public class Item implements Parcelable {
     public int getImageId() {
         return imageId;
     }
-    public String getPhone() {
-        return phone;
+    public int getPhone() {
+        return phoneId;
     }
-    public String getWeb() {
-        return web;
+    public int getWeb() {
+        return webId;
     }
 
     @Override
@@ -95,8 +99,8 @@ public class Item implements Parcelable {
                 Integer.toString(headerId),
                 Integer.toString(descriptionId),
                 Integer.toString(imageId),
-                phone,
-                web
+                Integer.toString(phoneId),
+                Integer.toString(webId)
         });
     }
 

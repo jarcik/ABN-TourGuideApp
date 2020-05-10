@@ -30,8 +30,8 @@ public class RestaurantsFragment extends Fragment {
 
 
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item(R.string.zichovec_rest, R.string.zichovec_rest_desc, R.drawable.zichovec_rest, "65478913", "http://www.novanaves.cz/denni-menu"));
-        items.add(new Item(R.string.pila_rest, R.string.pila_rest_dest, R.drawable.pila_rest, "654789321", "http://www.penzionnapile.cz/"));
+        items.add(new Item(R.string.zichovec_rest, R.string.zichovec_rest_desc, R.drawable.zichovec_rest, R.string.zichovec_phone, R.string.zichovec_web));
+        items.add(new Item(R.string.pila_rest, R.string.pila_rest_dest, R.drawable.pila_rest, R.string.pila_phone, R.string.pila_web));
 
         // Create an {@link Itemdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.

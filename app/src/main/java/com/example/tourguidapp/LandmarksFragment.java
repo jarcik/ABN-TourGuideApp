@@ -28,8 +28,8 @@ public class LandmarksFragment extends Fragment {
 
 
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item(R.string.castle, R.string.castle_desc, R.drawable.castle, null, null));
-        items.add(new Item(R.string.catedral, R.string.catedral_desc, R.drawable.catedral, "456987123", null));
+        items.add(new Item(R.string.castle, R.string.castle_desc, R.drawable.castle, -1, -1));
+        items.add(new Item(R.string.catedral, R.string.catedral_desc, R.drawable.catedral, R.string.catedral_phone, -1));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.

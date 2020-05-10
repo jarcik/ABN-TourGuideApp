@@ -28,9 +28,9 @@ public class NatureFragment extends Fragment {
 
 
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item(R.string.dzban_park, R.string.dzban_park_desc, R.drawable.dzban, "789654123", "http://www.poddzbansko.cz/tipy-na-vylety/prirodni-park-dzban/"));
-        items.add(new Item(R.string.menhirs, R.string.menhirs_desc, R.drawable.menhir, null, null));
-        items.add(new Item(R.string.stone_lines, R.string.stone_desc, R.drawable.stones, null, null));
+        items.add(new Item(R.string.dzban_park, R.string.dzban_park_desc, R.drawable.dzban, R.string.dzban_phone, R.string.dzban_web));
+        items.add(new Item(R.string.menhirs, R.string.menhirs_desc, R.drawable.menhir, -1, -1));
+        items.add(new Item(R.string.stone_lines, R.string.stone_desc, R.drawable.stones, -1, -1));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.

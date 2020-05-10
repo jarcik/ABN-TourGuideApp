@@ -28,8 +28,8 @@ public class AttractionsFragment extends Fragment {
 
 
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item(R.string.brewery, R.string.brewery_desc, R.drawable.brewery, "607135685", "http://www.novanaves.cz/nase-piva"));
-        items.add(new Item(R.string.pond, R.string.pond_desc, R.drawable.pond, null, null));
+        items.add(new Item(R.string.brewery, R.string.brewery_desc, R.drawable.brewery, R.string.brewery_phone, R.string.brewery_web));
+        items.add(new Item(R.string.pond, R.string.pond_desc, R.drawable.pond, -1, -1));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.

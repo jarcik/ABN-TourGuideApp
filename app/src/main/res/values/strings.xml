@@ -22,4 +22,13 @@
     <string name="landmarks_category">Landmarks</string>
     <string name="stone_lines">Stone line</string>
     <string name="stone_desc">Stone line are a mystery for all of us</string>
+    <string name="brewery_phone">607135685</string>
+    <string name="brewery_web">http://www.novanaves.cz/nase-piva</string>
+    <string name="catedral_phone">456987123</string>
+    <string name="dzban_phone">789654123</string>
+    <string name="dzban_web">http://www.poddzbansko.cz/tipy-na-vylety/prirodni-park-dzban/</string>
+    <string name="zichovec_phone">65478913</string>
+    <string name="zichovec_web">http://www.novanaves.cz/denni-menu</string>
+    <string name="pila_phone">654789321</string>
+    <string name="pila_web">http://www.penzionnapile.cz/</string>
 </resources>
